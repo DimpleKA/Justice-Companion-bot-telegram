@@ -12,7 +12,7 @@ app.use(express.json());
 const botToken = '6656617867:AAHSfZrLJRmuLme0-M8hSRwmwHnrypzbFOQ';
 
 // Ngrok URL
-const ngrokUrl = 'https://2c65-2406-7400-51-2f09-d07a-5a64-4f3a-ec52.ngrok-free.app';
+const ngrokUrl = 'https://justice-companion-bot-telegram.onrender.com';
 
 // Webhook route
 app.post(`/webhook/${botToken}`, (req, res) => {
